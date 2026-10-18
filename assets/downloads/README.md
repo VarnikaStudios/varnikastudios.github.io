@@ -1,0 +1,1 @@
+Place approved service and package PDFs in this folder. Replace each “Coming soon” row in services.html with a download link when its PDF is ready; include both English and Hindi editions. No pricing or brochures have been invented for this draft.
