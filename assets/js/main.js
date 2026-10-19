@@ -10,7 +10,7 @@
     languageButton.setAttribute('aria-label', language === 'en' ? 'Switch to Hindi' : 'Switch to English');
     document.querySelector('nav').setAttribute('aria-label', language === 'en' ? 'Main navigation' : 'मुख्य नेविगेशन');
     document.querySelector('#menu').setAttribute('aria-label', language === 'en' ? 'Toggle menu' : 'मेन्यू खोलें या बंद करें');
-    const titles = {'index.html':['Thoughtful brands. Meaningful growth.','आपकी पहचान। सार्थक विकास।'],'services.html':['Services & packages','सेवाएँ और पैकेज'],'small-business.html':['For small & medium businesses','छोटे और मध्यम व्यवसायों के लिए'],'politicians.html':['For public leaders','जनप्रतिनिधियों के लिए'],'influencers.html':['For influencers & creators','इन्फ्लुएंसर्स और क्रिएटर्स के लिए'],'contact.html':['Let’s talk','आइए, बात करें']};
+    const titles = {'people.html':['Our people','हमारी टीम'],'ai-workflow.html':['AI & our process','AI और हमारी प्रक्रिया'],'index.html':['Thoughtful brands. Meaningful growth.','आपकी पहचान। सार्थक विकास।'],'services.html':['Services & packages','सेवाएँ और पैकेज'],'small-business.html':['For small & medium businesses','छोटे और मध्यम व्यवसायों के लिए'],'politicians.html':['For public leaders','जनप्रतिनिधियों के लिए'],'influencers.html':['For influencers & creators','इन्फ्लुएंसर्स और क्रिएटर्स के लिए'],'contact.html':['Let’s talk','आइए, बात करें']};
     const current = location.pathname.split('/').pop() || 'index.html';
     if (titles[current]) document.title = titles[current][language === 'en' ? 0 : 1] + ' — Varnika Studios';
   }
